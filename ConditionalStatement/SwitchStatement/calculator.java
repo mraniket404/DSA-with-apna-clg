@@ -13,7 +13,7 @@ public class calculator {
                     break;
                 case '%': result = (num1%num2);
                     break;
-                default:
+                default:System.out.println("enter valid character  only");
                     break;
             }
             return result;
