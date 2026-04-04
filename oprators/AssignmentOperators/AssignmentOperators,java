@@ -1,0 +1,32 @@
+public class AssignmentOperatorsBasic {
+    public static void main(String[] args) {
+        // 1. Simple Assignment (=)
+        int a = 10;
+        System.out.println("a = " + a);  // 10
+        
+        // 2. Addition Assignment (+=)
+        a += 5;  // a = a + 5
+        System.out.println("a += 5: " + a);  // 15
+        
+        // 3. Subtraction Assignment (-=)
+        a -= 3;  // a = a - 3
+        System.out.println("a -= 3: " + a);  // 12
+        
+        // 4. Multiplication Assignment (*=)
+        a *= 2;  // a = a * 2
+        System.out.println("a *= 2: " + a);  // 24
+        
+        // 5. Division Assignment (/=)
+        a /= 4;  // a = a / 4
+        System.out.println("a /= 4: " + a);  // 6
+        
+        // 6. Modulus Assignment (%=)
+        a %= 4;  // a = a % 4
+        System.out.println("a %= 4: " + a);  // 2 (remainder of 6/4)
+        
+        // Multiple assignments
+        int x, y, z;
+        x = y = z = 100;  // All get 100
+        System.out.println("x=" + x + ", y=" + y + ", z=" + z);
+    }
+}
