@@ -1,4 +1,4 @@
-     class  floyds_triangle {
+      public class  floyds_triangle {
         public static void floyds_triangle(int n){
             int counter = 1;
             // outer_loop:
