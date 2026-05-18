@@ -30,4 +30,4 @@ public class TrappedWater {
         
         System.out.println("Total trapped water is: " + trap(height));
     }
-}
+}   
