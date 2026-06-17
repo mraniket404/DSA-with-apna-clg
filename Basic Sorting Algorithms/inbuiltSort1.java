@@ -1,5 +1,5 @@
 import java.util.*;
-public class inbuiltSort {
+public class inbuiltSort1 {
     public static void main(String[] args) {
         int arr[] = {5, 4, 1, 3, 2};
         Arrays.sort(arr);
