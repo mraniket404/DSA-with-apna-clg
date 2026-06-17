@@ -18,7 +18,7 @@ public class insertionSort {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
-    
+
     }
     public static void main(String[] args) {
       int arr[] = {5,4,1,3,2};
